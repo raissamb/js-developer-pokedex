@@ -45,3 +45,21 @@ loadMoreButton.addEventListener('click', () => {
         loadPokemonItens(offset, limit)
     }
 })
+
+
+// Details Window
+// Unfinished
+
+let pokemonWindow = document.getElementById("pokemonDetailWindow");
+let openPokemonDetailBtn = document.getElementById("openPokemonDetailBtn");
+let closePokemonDetailBtn = document.getElementById('closePokemonDetailBtn');
+
+
+function openDetails() {
+    pokemonWindow.showModal();
+}
+
+
+function closeDetails() {
+    pokemonWindow.close();
+}

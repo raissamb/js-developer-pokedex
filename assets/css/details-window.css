@@ -1,0 +1,19 @@
+.modal-btn {
+    border-radius: 1.5rem;
+    margin-top: 0.8rem;
+    font-size: small;
+    text-align: center;
+    margin: auto;
+    display: flex;
+    padding: 0.3em;
+
+}
+
+dialog::backdrop {
+    backdrop-filter: blur(15px);
+}
+
+dialog {
+    width: 500px;
+    max-width: 100%;
+}
